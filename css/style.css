@@ -1,0 +1,40 @@
+/* &display=swap */
+@import "null.css";
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+.gl_block {
+	background: green;
+}
+.block {
+	background: gold;
+	border: 1px solid black;
+}
+.abzach {
+	background-color: grey;
+	border-top: 5px;
+	border-left: 5px;
+	border-right: 5px;
+
+	border-color: black;
+	border-style: solid;
+}
